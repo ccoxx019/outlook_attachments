@@ -9,7 +9,8 @@ For example, you can make a rule that messages from a specific person with certa
 Your rule description may look something like this:
 
 Apply this rule after the message arrives
+
 from "SENDER"
-    and with "SUBJECT LINE" in the subject
+and with "SUBJECT LINE" in the subject
 move it to the "FOLDER" folder
-    and run Project1.saveAttachtoDisk
+and run Project1.saveAttachtoDisk
